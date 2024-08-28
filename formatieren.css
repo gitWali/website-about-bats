@@ -1,0 +1,81 @@
+header
+{
+	background-color: red; 
+	font-family: Helvetica;
+}
+nav
+{
+	background-color: lime;
+	flex-basis: 20%;
+	text-align: center;
+	font-size: 25px;
+	font-family: Comic Sans MS.;
+}	
+article
+{
+	padding:20px;
+	background-color: yellow ;
+	font-family: Arial;
+	flex-basis: 60%;
+}	
+ aside
+{
+	background-color: cyan;
+	flex-basis: 20%;
+	text-align: center;
+}	
+footer
+{
+	padding:20px;
+	background-color: magenta ;
+}	
+
+.ueberschrift
+{
+	font-size: 30px;
+	font-weight: bold;
+}
+.fett
+{
+	font-weight: bold;
+}
+
+.unterstreichen
+{
+	text-decoration-line: underline;
+	color: magenta;
+}
+
+.kursiv
+{
+	font-style: oblique;
+}
+
+.flex-container
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.box-links
+{
+	flex-basis: 20%;
+	background-color: red;
+}
+
+.box-rechts
+{
+	flex-basis:20%;
+	background-color:red;
+}
+
+.box-mitte
+{
+	flex-basis:60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	font-weight: bold;
+}
